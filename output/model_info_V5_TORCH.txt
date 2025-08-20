@@ -1,7 +1,5 @@
 model_version: V5_TORCH
 input_size: [3, 150, 150]
-EPOCH: 50
-LEARNING_RATE: 0.001
 class_mapping: {'0': 'notumor', '1': 'meningioma'}
 prediction_threshold: 0.5
 normalization: {'mean': [0.485, 0.456, 0.406], 'std': [0.229, 0.224, 0.225]}
